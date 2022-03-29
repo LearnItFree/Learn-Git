@@ -516,10 +516,10 @@ v. git merge aliasname/branchname
 
 ## Git merge vs rebase
 
-GIT Merge: Git merge is a command that allows you to merge branches. When you use Git merge, only the target branch is changed. 
+**GIT Merge**: Git merge is a command that allows you to merge branches. When you use Git merge, only the target branch is changed. 
 The source branch history remains. Git merge adds a new commit, preserving the history.
 
-GIT Rebase: Git rebase is a command that allows developers to integrate changes from one branch to another.It transfers the completedwork from one branch to another. In the process, unwanted history is eliminated. Git rebase can't create new commit_id it will overwrtie the commitid. 
+**GIT Rebase**: Git rebase is a command that allows developers to integrate changes from one branch to another.It transfers the completedwork from one branch to another. In the process, unwanted history is eliminated. Git rebase can't create new commit_id it will overwrtie the commitid. 
 
 NOTE: If you're working alone or on a small team, use rebase. If you're working with a big team, use merge. 
 
