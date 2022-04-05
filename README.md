@@ -19,6 +19,11 @@ git init
 
 ```
 
+<video loop controls autoplay muted height="350px" width="550px">
+<source src="./Vide/gitinit.mp4" type="video/mp4">
+video not found
+</video>
+
 ### The configuration must be required. Its like author information (metadata) and it's a one time activity
 
 ``` bash
