@@ -19,7 +19,7 @@ git init
 
 ```
 
-<video loop autoplay muted height="85%" width="85%" controlList="nodownload">
+<video loop autoplay muted height="65%" width="65%" controlList="nodownload">
 <source src="Video/gitinit.mp4" type="video/mp4">
 video not found
 </video>
