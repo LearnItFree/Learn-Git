@@ -19,6 +19,13 @@ git init
 
 ```
 
+<!--
+<video loop autoplay muted height="65%" width="65%" controlList="nodownload">
+<source src="Video/" type="video/mp4">
+video not found
+</video> 
+-->
+
 <video loop autoplay muted height="65%" width="65%" controlList="nodownload">
 <source src="Video/gitinit.mp4" type="video/mp4">
 video not found
@@ -34,6 +41,11 @@ git config --global user.email "give here email address"
 
 ```
 
+<video loop autoplay muted height="65%" width="65%" controlList="nodownload">
+<source src="Video/gitconfig.mp4" type="video/mp4">
+video not found
+</video>
+
 ### It will list the all of our username and email's 
 
 ``` bash
@@ -41,6 +53,11 @@ git config --global user.email "give here email address"
 git config --gloabl --list
 
 ```
+
+<video loop autoplay muted height="65%" width="65%" controlList="nodownload">
+<source src="Video/gitconfiglist.mp4" type="video/mp4">
+video not found
+</video>
 
 ### Here we are adding the aliasname to remote repository 
 
@@ -71,14 +88,6 @@ output example:
 giturl https://github.com/exampleuser/Project.git (fetch)
 
 giturl https://github.com/exampleuser/Project.git (push)
-
-```
-
-### It will give status of the current position
-
-``` bash
-
-git status
 
 ```
 
@@ -114,6 +123,15 @@ ex: git add test.txt ---> here we moving particular file from working area to st
 ex: git add DevOps ---> here were moving particular folder from working area to stagging area
 
 ```
+
+### It will give status of the current position
+
+``` bash
+
+git status
+
+```
+
 ### We are moving files from stagging area to local repo.
 
 ``` bash
