@@ -69,6 +69,11 @@ ex: git remote add giturl https://github.com/exampleuser/Project.git
 
 ```
 
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
+<source src="Video/gitremoteadd.mp4" type="video/mp4">
+video not found
+</video> 
+
 ### It will list all of the alias name only
 
 ``` bash
@@ -76,6 +81,11 @@ ex: git remote add giturl https://github.com/exampleuser/Project.git
 git remote
 
 ```  
+
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
+<source src="Video/gitremote.mp4" type="video/mp4">
+video not found
+</video> 
 
 ### It will list the alias name's and the Repository_url's
 
@@ -91,6 +101,11 @@ giturl https://github.com/exampleuser/Project.git (push)
 
 ```
 
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
+<source src="Video/gitremote-v.mp4" type="video/mp4">
+video not found
+</video> 
+
 ### We can rename our remote repo alias name
 
 ``` bash
@@ -101,6 +116,11 @@ ex: git remote rename giturl repourl
 
 ```
 
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
+<source src="Video/gitremoterename.mp4" type="video/mp4">
+video not found
+</video> 
+
 ### We can remove the aliasname. It's like a removing the git repository url from the local repository
 
 ``` bash
@@ -110,6 +130,11 @@ git remote remove <aliasname>
 ex: git remote remove repourl
 
 ```
+
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
+<source src="Video/gitremoterm.mp4" type="video/mp4">
+video not found
+</video> 
 
 ### It will give status of the current position
 
