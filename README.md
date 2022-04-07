@@ -168,24 +168,6 @@ ex: git commit -m "these is my first commiting of dev project"
 
 ```
 
-### Here we can list all of our commit ID's
-
-``` bash
-
-git log 
-
-git log options: --graph, --oneline, --all
-
-```
-
-### Here it will give detailed information about the commit id
-
-``` bash
-
-git show <commitid>
-
-```
-
 ### Here we are pushing the files to the remote repo ( github/gitlab ). While pushing file from local repository to remote repository it will ask the credentials of the github (or) gitlab account
 
 ``` bash
@@ -229,7 +211,25 @@ git ls-tree master/HEAD -r --name-only
 
 ```
 
-What is `**GIT Revert**` ?
+### Here we can list all of our commit ID's
+
+``` bash
+
+git log 
+
+git log options: --graph, --oneline, --all
+
+```
+
+### Here it will give detailed information about the commit id
+
+``` bash
+
+git show <commitid>
+
+```
+
+What is `GIT Revert` ?
 
 ANS: In simple words to say it will undo the changes of new source-code/file anything.
 For example, we release a webapplication:v1 and now we are creating a new version of webapplication:v2 after all getting done then wepush the v2 to remote repository then that v2 have some bug issuse (or) webapplication not comming up in that case we can use the gitrevert it will go back to previos version of the webapplication:v1 (switiching to old version).
@@ -242,7 +242,7 @@ git revert <commitid>
 
 ```
 
-What is `**GIT Reset**` ?
+What is `GIT Reset` ?
 
 ANS: By mistakely we add file/directory to stagging area. we can take it back to the working area (unstagging)
 It's opposite to git add means unstagging the file.
@@ -256,7 +256,7 @@ git reset filename/directoryname
 
 ```
 
-What is `**GIT Branch**` ?
+What is `GIT Branch` ?
 
 ANS: Branch represents as a independnent of development. By using branch we can separate the environment like dev branch, porduction environment, qa environment like these we can work at individual branches. we can switch particular branch with out touching/changinganything on other branches.
 
@@ -514,6 +514,7 @@ iii. git log --oneline --graph
 # We can also list our log's
 
 # By using clone we can modify files or adding something and we can push directrly without adding remote repo url. By default remote alias name will be "origin" 
+
 iv. git push origin <branchname> by defualt origin is repository alias name
 
 ```
@@ -527,13 +528,13 @@ git pull = git fetch + git merge
 
 i. git init
 
-# It pull all files from the master branch
-
 ii. git pull <repository_url> 
 
-# It will pull files from the particular branch
+# It pull all files from the master branch
 
 iii. git pull <repository_url> <bramchname>
+
+# It will pull files from the particular branch
 
 ```
 
