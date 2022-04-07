@@ -20,13 +20,13 @@ git init
 ```
 
 <!--
-<video loop autoplay muted height="65%" width="65%" controlList="nodownload">
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
 <source src="Video/" type="video/mp4">
 video not found
 </video> 
 -->
 
-<video loop autoplay muted height="65%" width="65%" controlList="nodownload">
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
 <source src="Video/gitinit.mp4" type="video/mp4">
 video not found
 </video>
@@ -41,7 +41,7 @@ git config --global user.email "give here email address"
 
 ```
 
-<video loop autoplay muted height="65%" width="65%" controlList="nodownload">
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
 <source src="Video/gitconfig.mp4" type="video/mp4">
 video not found
 </video>
@@ -54,7 +54,7 @@ git config --gloabl --list
 
 ```
 
-<video loop autoplay muted height="65%" width="65%" controlList="nodownload">
+<video loop controls autoplay muted height="65%" width="65%" controlList="nodownload">
 <source src="Video/gitconfiglist.mp4" type="video/mp4">
 video not found
 </video>
@@ -110,6 +110,15 @@ git remote remove <aliasname>
 ex: git remote remove repourl
 
 ```
+
+### It will give status of the current position
+
+``` bash
+
+git status
+
+```
+
 ### Here we are adding file to stagging area
 
 ``` bash
@@ -121,14 +130,6 @@ ex: git add . ---> here we moving current directory from working area to staggin
 ex: git add test.txt ---> here we moving particular file from working area to stagging area
 
 ex: git add DevOps ---> here were moving particular folder from working area to stagging area
-
-```
-
-### It will give status of the current position
-
-``` bash
-
-git status
 
 ```
 
@@ -203,7 +204,7 @@ git ls-tree master/HEAD -r --name-only
 
 ```
 
-What is **GIT Revert** ?
+What is `**GIT Revert**` ?
 
 ANS: In simple words to say it will undo the changes of new source-code/file anything.
 For example, we release a webapplication:v1 and now we are creating a new version of webapplication:v2 after all getting done then wepush the v2 to remote repository then that v2 have some bug issuse (or) webapplication not comming up in that case we can use the gitrevert it will go back to previos version of the webapplication:v1 (switiching to old version).
@@ -216,7 +217,7 @@ git revert <commitid>
 
 ```
 
-What is **GIT Reset** ?
+What is `**GIT Reset**` ?
 
 ANS: By mistakely we add file/directory to stagging area. we can take it back to the working area (unstagging)
 It's opposite to git add means unstagging the file.
@@ -230,7 +231,7 @@ git reset filename/directoryname
 
 ```
 
-What is **GIT Branch** ?
+What is `**GIT Branch**` ?
 
 ANS: Branch represents as a independnent of development. By using branch we can separate the environment like dev branch, porduction environment, qa environment like these we can work at individual branches. we can switch particular branch with out touching/changinganything on other branches.
 
